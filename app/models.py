@@ -11,6 +11,7 @@ class RCAResult(BaseModel):
     analysis: str
     evidence: List[str]
     historical_correlation: List[str]
+    log: List[str]
     uncertainties: List[str]
     confidence: float = Field(ge=0, le=100)
     confidence_colour: str
