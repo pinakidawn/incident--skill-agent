@@ -1,0 +1,7 @@
+tools:
+  live_logs:
+    enabled: true
+  confluence_search:
+    enabled: true
+  github_search:
+    enabled: true
